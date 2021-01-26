@@ -2,6 +2,8 @@
 
 Pregled stranice na :
 
+https://sad-hopper-2bcf97.netlify.app/
+
 
 50-60% gotovo od onoga sto zelim napraviti. Promjene koje jos moram implementirati su :
 1.Pronaci nacin kako da "workout" section bude bolji, eventualno ubaciti plan prehrane ispod ovih tablica+opis svakog od 3 treninga , bilo bi previse teksta i informacija pa ne znam sta cu s tim .
@@ -15,4 +17,4 @@ Pregled stranice na :
 9. Iz nekog razloga sam radio u staroj verziji bootstrapa i onda mi nije javascripta radila pa sam morao pomjestati stariju i najnoviju verziju , pod hitno to moram rijesiti ali mislim da nije preveliki problem
 10.Promjeniti boju navbara u drugaciju nijansu, urediti navbar, smanjiti "logo"
 
-Napravio sam za index.html responsivness od 500 linija(upomoc xd). Radio sam u ovim rezolucijama zadanim od browsera te sve ove deviceove njihove zadane(moto g4, pixel 2 , iphonex, surface duo, galaxy fold, itd ). Trebalo bi biti fully responsive po tim deviceovima eventualno neki fontovi su premali a neki buttoni mozda preveliki ali sve je na mjestu i nema horizontal scrolla nigdje .
+Napravio sam za index.html responsivness od 500 linija(upomoc xd, iphone je strgan na deviceu iako na chromeu ga uredno prikazuje kakav treba biti). Radio sam u ovim rezolucijama zadanim od browsera te sve ove deviceove njihove zadane(moto g4, pixel 2 , iphonex, surface duo, galaxy fold, itd ). Trebalo bi biti fully responsive po tim deviceovima eventualno neki fontovi su premali a neki buttoni mozda preveliki ali sve je na mjestu i nema horizontal scrolla nigdje .
