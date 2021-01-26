@@ -1,0 +1,63 @@
+#lg12{
+    height:937px;
+    background-image: url(./media/cropbgop.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#regbtn{
+    text-align:center;
+}
+
+#md6{
+    display:flex;
+}
+#login6{
+    width:400px;
+    text-align: center;
+    background:aliceblue;
+    height:500px;
+    padding-left:15px;
+    padding-right:15px;
+    border:2px solid #343a40;
+    margin-left:15px;
+}
+#login6 h1{
+    font-size:36px;
+    color:white;   
+}
+#login6 a{
+    font-size:16px;
+}
+#row1{   
+    background-color:#343a40;
+    height:90px;
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:396px;
+    margin-left:-15px;
+}
+.input-group-text{
+    height:38px;
+}
+#row1 h1{
+    padding:0;
+}
+#lgnbtn{
+    background-color: #343a40;
+    border: 1px solid #343a40;;
+}
+#fbbtn{
+    background-color:#1877f2;
+    color:white;
+}
+#cus {
+    text-align: center;    
+}
+body{
+    font-family: gunplay regular!important;
+}

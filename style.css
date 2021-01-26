@@ -1,0 +1,659 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#homebg a{
+    font-size:26px!important;
+    margin-top:45px;
+}
+
+#navbar{
+    display: flex;
+    position:fixed;
+    background-color:#343a40!important;
+    top:0;
+    width:100%;
+    z-index: 100;
+    margin:0;
+    padding:0;
+    height:64px;
+    
+}
+
+#logo{
+    padding-left:10px;
+}
+
+
+#navbar a{
+    font-family:gunplay regular;
+    font-size:24px;
+    color:Aliceblue;
+}
+#navbar a:hover{
+    color:white;
+}
+.nav-link:hover{
+    box-shadow: 0 2px aliceblue;
+}
+
+li{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+#homebg{
+    height:976px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    background-image: url(./media/cropbg.png);
+    padding:0;
+    background-size:cover;
+}
+#home{
+    position:relative;
+}
+
+h1{
+    font-family:gunplay regular !important;
+    font-size:20vh !important;
+}
+h3{
+    font-family:gunplay regular !important;
+    font-size:10vh !important;
+}
+h1,h3{
+    color:white !important;
+    margin:0 !important;
+}
+
+#premiumbtn:hover{
+    background-color: rgba(53, 110, 133, 0.329);
+    
+}
+#premiumbtn{
+    height:80px;
+    width:240px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    font-size:3vh;
+    font-family:gunplay regular;
+    color:lightblue;
+    border-style: solid;
+    border-width: 4px;
+    border-color:lightsteelblue;
+}
+h2{
+    font-family:gunplay regular !important;
+    color:yellow !important;
+}
+
+#premiumprogram h2{
+    margin-top:15px;
+}
+
+#premiumprogram{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    
+    
+}
+#buybtn{
+    width:200px;
+    height:50px;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    font-size:2vh;
+    color:yellow;
+    font-family:gunplay regular;
+    margin-top:15px;
+    background-color:black;
+    margin-bottom:15px;
+    
+}
+
+#buybtn:hover{
+    background-color:rgb(111, 138, 50);
+}
+
+#buy {
+    display:flex;
+    justify-content: center;
+    
+    
+}
+#buy h1{
+    font-size:6vh!important;        
+}
+
+#incell{
+    margin-top:45px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+#videosc{
+    padding-left:25px;
+    text-align: center;
+}
+#callc{
+    text-align:center;
+}
+#packagec{
+    text-align:center;
+}
+
+
+#row{
+    padding:0;
+    margin:0;
+}
+.narrow{
+    width:75%;
+    margin:1.5rem auto;
+    padding-top:2rem;
+}
+
+
+#videoicon,#callicon,#gifticon{
+    margin-bottom:25px;
+}
+
+#buybg{
+    background-color:lightgray;
+}
+#buy h1{
+    color:yellow !important;
+}
+#row h4{
+    font-family:gunplay regular !important;
+    padding-bottom:15px;
+}
+
+.offset1:before{
+    display:block;
+    content:"";
+    height:64px;
+    margin-top: -64px;
+}
+#videosc,#callc,#packagec{
+    padding-bottom:104px;
+}
+#videosc{
+    padding-right:50px;
+}
+#callc{
+    padding-right:50px;
+}
+
+#trnaslov h1{
+    font-size:6vh!important;
+    color:yellow!important;
+    text-align: center;
+}
+#ss{
+    height:5px;
+    background-color: black;
+}
+
+#narrow{
+    margin-bottom:0;
+}
+
+#trainerbg{
+    height:876px;
+    background-image:url("./media/richbgop.png") ;
+    background-size:cover;
+}
+
+#trnaslov h1{
+    padding-top:20px;
+}
+
+.offset2::before{
+    display: block;
+    content: "";
+    height:64px;
+    margin-top:-64px;
+}
+
+#trainerss{
+    display:flex;
+    margin-top:40px;
+}
+
+#trainerss h2{
+    font-size:3vh!important;
+}
+#workouts h5{
+    font-size:26px!important;
+    font-family:gunplay regular;
+}
+#workouts a{
+    font-size:46px!important;
+    text-align: center;
+    color:black!important;
+    font-family:gunplay regular;
+}
+
+#gain{
+    align-items: center;
+}
+#illiaphoto{
+    padding-top:10px;   
+}
+#info{
+    margin-top:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+#illiaphoto{
+    opacity:60%;
+}
+
+#gaintrainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#gainbtn{
+    width:200px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px black solid;
+    
+}
+#gaintrainer a{
+    font-size:19px!important;   
+}
+
+#gaintrainer a:hover{
+    background-color:transparent
+}
+#maintaintrainer a:hover{
+    background-color:transparent;
+}
+
+#illiaphoto:hover{
+    opacity:100%
+}
+
+#jeffphoto{
+    padding-top:10px;
+    opacity: 60%;
+}
+#jeffphoto:hover{
+    opacity:100%;
+}
+#czech,#usa{
+    padding-left:5px;
+}
+
+#cbtn{
+    width:200px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px black solid;
+}
+#cardiotrainer a{
+    font-size:19px!important;
+    
+}
+#cardiotrainer a:hover{
+    background-color: transparent;
+}
+#infoc{
+    margin-top:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+.dropdown-menu.show li{
+    background-color:#343a40!important;
+    margin:0;
+}
+
+
+
+
+#navbarlogin{
+    padding-right:15px;
+}
+#pdrop{
+    padding-left:10px;
+    position:absolute;
+    right:0;
+}
+
+#pddrop{
+    position:relative;
+}
+/* ------------LOGIN------------- */
+#loginrow{
+    position:absolute;
+    width:500px;
+    right:0;
+    left:-89%;
+    transition: left 0.5s;  
+}
+
+.login-form-1 h3{
+    text-align: center;
+    color: black !important;
+    font-size:32px!important;
+    padding-bottom:10px;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff !important;
+    background-color: #0062cc !important;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#plogin-dropdown-menu.show{
+    display:none;
+}
+
+#plogin.dropdown-menu.show{
+    padding:0;
+    margin:0;
+}
+
+form{
+    text-align: center;
+}
+#col6{
+    background-color:lightgray;
+}
+/* ------------LOGIN------------- */
+
+#calebphoto{   
+    opacity:60%;
+    padding-top:10px;
+}
+#calebphoto:hover{
+    opacity:100%;
+}
+#maintaintrainer a{
+    font-size:19px!important;
+}
+
+
+.dropdown-menu.show {
+    padding:0
+}
+
+.dropdown-menu.show a:hover{
+    background-color:#343a40;
+}
+
+#buy h1{
+    color:black!important;
+}
+#atleanxtm a{
+    font-size:26px!important;
+    text-decoration:underline;
+}
+#percent a{
+    font-size:26px!important;
+    text-decoration:underline;
+}
+
+#loseworkouts,#gainworkouts,#maintainworkouts{
+    font-family:gunplay regular;
+    background-color:aliceblue;
+}
+#losew{
+    text-align: center;
+    padding-top:20px;
+    font-size:32px;
+    margin-bottom:32px;
+}
+
+#clients{
+    font-family:gunplay regular;
+}
+
+#ourclients{
+    text-align:center;
+    font-size:46px;
+    background:#343a40;
+    color:rgb(192, 226, 247);
+}
+
+.card-body p{
+    margin-bottom:0;
+}
+
+.card-title {
+    font-size:26px;
+}
+
+
+hr{
+    margin-bottom:0!important;
+}
+#loserclient{
+    display:flex;
+    justify-content:center;
+    margin-top:15px;
+    margin-bottom:30px;
+}
+#lose4{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:15px;
+}
+#lose6 .card{
+    margin-top:15px;
+}
+
+#lose12{
+    display:flex;
+}
+#loseimg{
+    margin-top:83px;
+    text-align:center;
+}
+#lquotes{
+    margin-top:25px;    
+}
+
+blockquote{
+    text-align:center;
+    color:rgb(192, 226, 247);
+}
+
+blockquote hr{
+    border-top:2px solid #007bff;
+}
+#ss2{
+    height:5px;
+    background-color: black;
+    margin-top:10px;
+}
+
+.table a{
+    color:#87CEFA;
+}
+
+#clientrow{
+    display:flex;
+}
+
+#losepic{
+    border-radius:50%;
+}
+
+#lose4b{
+    display:flex;
+    justify-content:flex-start;
+    margin-top:15px;
+}
+
+.offset4:before{
+    display:block;
+    content:"";
+    height:64px;
+    margin-top: -64px;
+}
+
+#contactc{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+
+#cus{
+    background-color:#343a40
+}
+
+#loginbtn{
+    background:transparent;
+    border:0;
+    position:fixed;
+    right:15px;
+    top:13px; 
+    z-index: 100;     
+}
+#logindiv{
+    margin-top:8px;
+}
+
+#logincontainer{
+    width:400px;
+    height:500px;
+    text-align:center;
+    border:2px solid #343a40;
+    position: fixed;
+    right:0px;
+    top:64px; 
+    background:aliceblue;
+    display:none;
+    z-index: 100; 
+    font-family: gunplay regular!important;            
+}
+#logincontainer a{
+    font-size:16px!important;
+}
+
+#logincontainer h1{
+    font-size:36px!important;
+    color:white;
+    text-align: center!important;      
+}
+
+#row1{
+    height:90px;
+    width:396px;
+    background-color:#343a40;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lgnbtn{
+    background:#343a40;
+    border: 1px solid #343a40;
+}
+#fbbtn{
+    background: #1877f2;
+}
+
+#logincontainer.show{
+    display:inline;
+}
+
+
+
+/*------------- KARUSEL START---------------------- */
+
+.carousel-item{
+    height:35rem;
+    background:#343a40;
+    font-family:gunplay regular;
+}
+#lose12 .card{
+    background:aliceblue;
+}
+
+/* ------------------------- */
+
+
+#stevecard .card-body{
+    background:aliceblue;
+}
+#stevecard li{
+    background:rgb(192, 226, 247);
+}
+#stevecard {
+    border:rgb(192, 226, 247);
+}
+#lose4b{
+   display:flex;
+   justify-content: flex-end;
+}
+#h12{
+    padding:0;
+}
+#h12 h3{
+    font-size:46px!important;
+    padding-top:10px;
+    color:rgb(192, 226, 247)!important;
+}
+#ourclients hr{
+    border-top:2px solid rgb(192, 226, 247);
+    width:48px;
+}
+
+#hamb{
+    margin-top:4px;
+}
+#trainerbg{
+    height:auto;
+}
+#gainbtn{
+    margin-bottom:10px;
+}

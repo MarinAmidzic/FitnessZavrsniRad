@@ -1,0 +1,97 @@
+html{
+    overflow-x:hidden;
+}
+
+
+@media only screen and (max-width:1440px){
+    h3{
+        font-size:38px!important;
+    }
+    #iltr{
+        width:720px;
+        height:809px;
+    }
+    #calebtr{
+        width:720px;
+        height:870px;
+    }
+    
+}
+
+@media only screen and (max-width:1024px){
+    #iltr{
+        width:482px;
+        height:965px;
+    }
+    h3{
+        font-size:28px!important;
+    }
+    li{
+        font-size:20px!important;
+    }
+    #drop{
+        width:1024px!important;
+        margin:0;
+    }
+    #navbar{
+        width:1024px;
+        position: fixed;
+        left:0;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    #col12g{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    #iltr{
+        width:400px;
+        height:400px;
+        margin-left:169px;
+    }
+    #iltxt{
+        margin-left:217px;
+        padding-left:0;
+    }
+    #col12c{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    #jefftr{
+        width:400px;
+        height:400px;
+        margin-left:385px;
+    }
+    #jefftxt{
+        margin-left:217px;
+        padding-left:0;
+    }
+    #col12m{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    #calebtr{
+        width:400px;
+        height:400px;
+        margin-left:385px;
+    }
+    #navbar a{
+        font-size:13px!important;
+    }
+    #navbar{
+        opacity:50%;
+        height:46px;
+        width:102%;
+    }
+    #logo{
+        width:48px;
+        height:36px;
+        margin-left:15px;
+    }
+    
+}

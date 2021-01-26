@@ -1,0 +1,225 @@
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    position:fixed;
+    background-color:#343a40!important;
+    top:0;
+    width:101%;
+    z-index: 1;
+    margin:0;
+    padding:0;
+    height:64px;
+}
+.dropdown-menu.show li{
+    background-color:#343a40!important;
+    margin:0;
+}
+.dropdown-menu.show a:hover{
+    background-color:black;
+}
+.dropdown-menu.show {
+    padding:0
+}
+#navbar a{
+    font-family:gunplay regular;
+    font-size:24px;
+    color:aliceblue;
+}
+#navbar a:hover{
+    color:white;
+}
+
+li{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+#h3id{
+    margin-bottom:35px;
+    padding-top:10px;
+    text-align: center;
+    
+}
+
+#il{
+    margin-top:64px;         
+}
+.col-md-12{
+    display:flex;
+    flex-direction:row;
+    padding:0;
+    background-color:lightgray;
+    
+}
+#iltxt{
+    height:px;
+    padding-left:50px;
+    padding-top:60px;
+    display:flex;
+    justify-content: center;      
+}
+
+#iltxt h3{
+    font-size:46px;
+}
+#iltxt{
+    font-family:gunplay regular;
+}
+#ilinfo li{
+    display:flex;
+    align-items: center;
+    font-size:22px;
+}
+#hr{
+    display:block;
+    height:1px;
+    border:0;
+    border-top:2px solid yellow;
+    margin-top:10px;
+}
+ul{
+    padding-left:0;
+}
+#social h3{
+    text-align:center;
+}
+#social{
+    text-align:center;
+}
+#insta{
+    padding-left:20px;
+    padding-right:20px;
+}
+#ss{
+    height:5px;
+    background-color: black;
+}
+
+#ss2{
+    height:5px;
+    background-color: black;    
+}
+#gother{
+    text-align:center;
+    padding-top:25px;
+    font-family:gunplay regular;
+    background-color:lightgray;
+}
+#gother h3{
+    font-size:46px;
+    margin-bottom:0;
+}
+.col-sm-4{
+    display:flex;
+    justify-content: center;
+}
+.card{
+    margin-top:30px;
+    font-family:gunplay regular;
+    border: black 3px solid !important;
+}
+.card h5{
+    font-size:26px;
+}
+.card-body{
+    text-align:center;    
+}
+#insta28{
+    padding-left:20px;
+    padding-right:20px;
+}
+#jf{
+    display: flex;
+    justify-content: center;
+}
+#jefftxt{
+    padding-left:50px;
+    display:flex;
+    justify-content:center;
+    font-family:gunplay regular;    
+}
+#jefftxt h3{
+    font-size:46px;
+}
+#jeffinfo li{
+    font-size:22px;
+}
+#cardiotrainers:before{
+    display:block;
+    content:"";
+    height:64px;
+    margin-top:-64px;
+}
+#jf,#jefftxt{
+    height:870px;
+}
+#maintaintrainers:before{
+    display:block;
+    content:"";
+    height:64px;
+    margin-top:-64px;
+}
+
+.dropdown-menu.show {
+    padding:0
+}
+
+.dropdown-menu.show a:hover{
+    background-color:#343a40;
+}
+
+.dropdown-menu.show li{
+    background-color:#343a40!important;
+    margin:0;
+}
+
+#navbar li{
+    text-align:center;   
+}
+.nav-link.active{
+    background-color:#343a40;
+    width:102%;   
+}
+#navbarNavDropdown{
+    background-color:#343a40;
+}
+.nav-item.dropdown{
+    padding:0;
+    text-align:center;
+}
+
+.nav-item li{
+    padding-left:20px;
+    padding-right:10px;
+}
+#navbarDropdownMenuLink.nav-link.dropdown-toggle{
+    padding-left:29px;
+}
+
+#logo{
+    padding-left:25px;
+}
+#drop.container-fluid{
+    width:100%
+}
+#w1{
+    padding-left:17px;
+}
+#h1{
+    padding-left:7px
+}
+
+
+footer {
+    background: #343a40;
+    padding: 40px;    
+}
+footer a {
+    color: #f8f9fa!important
+}
+
+#cus{
+    background-color:#343a40
+}

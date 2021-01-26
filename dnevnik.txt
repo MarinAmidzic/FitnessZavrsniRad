@@ -1,0 +1,46 @@
+21.12.2020.- start, dosta problema s fixiranim navbarom, puno posla u css-u i z-index:1 stavlja fixed bar
+na vrh svega(nema preklapanja slika,drugih dijelova stranice), offset(naziv svakog sectiona):before
+postaviti kao block s visinom navbara te negativnom marginom u istoj velicini da bi me uputio direktno
+na dio koji mi treba->problem gdje se fixed bar ne uracunava kod #section-a i onda 64px(velicina navbar)
+mi pokaze prekratko,
+background img i text laganica. Napravljen fixed navbar i home page
+
+22.12.2020. - vise manje straight forward,ostavljeno dosta praznog prostora kod premium programa zbog
+mogucnosti monetizacije/bilo cega drugoga sto mi padne na pamet ili nista od navedenog. Napravljen
+premium program i zapocet "workout/trainer" section
+
+23.12.2020. Napravljeno samo 2/3 trenera, dosta problema kod centriranja buttona i stvari jer sam
+postavljao sve u flex-direction:columnu, inace bi mi izlazilo iz mog col-md-4 jer imam slike .
+Naci mogucnost gdje necu morati sve "rucno" poravnjavati jer iako mi je col-md-4 parent row
+svim stvarima unutra, iz nekog razloga ne radi display flex , direction:column , sav tekst je prosao
+ali na kraju button mi se poremetio i morao sam ga rucno centrirat(zasto?)
+
+26.12.2020. Zapocet gainertrainer page i napravljen cijeli illia(featured) page i sve spojeno.
+problem je nastao kod navbara jer iako mu je bio width100% nije isao preko cijelog ekrana nego je na desnom
+rubu bilo 5 pixela praznih iz nepoznatog razloga te sam morao stavit width na 101%????? upomoc 
+
+27.12.2020. Napravljene 3 kartice za ostatak gainer trenera, sve je lagano osim odabira slike jer neki treneri nemaju
+slike izbliza a neki nemaju slike gdje su udaljeni od kamere pa izgleda glupo
+
+1.1.2021. Danas je u planu da zavrsim cijeli "trainer page" sa svih 8 trenera koja su mi ostala i da krenem raditi
+drugi dio za workout(tablicu vjezba).Zavrsio trainer page gdje samo fali footer , jedini problem je bio naci slike 
+koje ce se donekle uklapati s ostatkom 
+
+2.1.2021. Pocetak tablea za workoute, napravljen lose workout cijeli i napravljen cijeli media query za index.html 
+do tada sto sam napravio. Trebam dodati jos gain workout i maintain workout i clienti i contact us i neki basic footer.
+
+4.1.2021. Pocinjem raditi clients page i nemam pojma kako bi to trebalo izgledati, da stavim 2 klijenta s njihovim
+slikama transformacije ili da stavim obrazac za klijente ?=?????? Napravio sam neki cirkus koji presmijesno izgleda
+
+6.1.2021. Napravio clients page kakav god da je cisto da ga imam, stavio 3 klijenta koja ne zelim staviti u 
+carousel jer ne zelim previse ulazit u javascript koju ni malo ne razumijem
+
+13.1.2021. Napravio contact us page i footer, homepage je fully responsive dok sam trenere napravio da budu responsive
+do tableta pa cu to odraditi drugi put . Nakon sto to napravim idem na login page i nadzornu plocu
+
+16.1.2021. Napravio login button s login containerom uz java skriptu. Pola sata vremena potrosenog jer mi javascript nije radila
+iz razloga sto sam je ucitavao u headu i onda ako se ucitava iz heada se ucita prije stranice i onda mi addEventListener ne radi.
+Responsivness sam pogledao i trebam ga samo na tabletu lijevo u cosak premjestiti i od tableta pa na dolje smanjiti sve unutra.
+
+17.1. Loginn button responsivness gotov, problem na mobitelu i nize jer ne znam kako implementirat da se vidi i hamburger i login
+bez da jedno ne preklapa drugo, bukv nemoguce
